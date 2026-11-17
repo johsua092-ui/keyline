@@ -1,0 +1,15 @@
+{
+  "name": "keyline",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Batch API key tester. Paste a key file, name a base URL, get pass/fail, latency, throughput and exact token counts. Static front end plus a single Cloudflare Worker.",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "serve": "npx --yes serve public -l 4173"
+  },
+  "devDependencies": {
+    "wrangler": "^4.102.0"
+  }
+}
